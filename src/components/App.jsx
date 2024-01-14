@@ -38,7 +38,7 @@ export const App = () => {
     const totalFeedback = countTotalFeedback();
     const percentPositive = countPositiveFeedbackPercentage();
     const options = Object.keys(values);
-    console.log(options)
+    // console.log(options)
     return (
       <div className='App'>
         <Section title="Please leave feedback">
